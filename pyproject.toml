@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "course-django-payment-basic"
+version = "0.1.0"
+description = ""
+authors = ["bluebamus <bluebamus@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.2"
+django-bootstrap5 = "^24.3"
+django-environ = "^0.11.2"
+django-widget-tweaks = "^1.5.0"
+iamport-rest-client = "^0.9.0"
+pillow = "^11.0.0"
+sorl-thumbnail = "^12.11.0"
+django-debug-toolbar = "^4.4.6"
+black = "^24.10.0"
+djlint = "^1.35.2"
+requests = "2.26.0"
+django-extensions = "^3.2.3"
+ipython = "^8.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
